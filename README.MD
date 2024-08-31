@@ -33,6 +33,18 @@ I used **Pandas** to read, clean and transform the Dataset📅.
 
 # First Look at the Dataset Structure
 
+The next step after the initial Dataset loading from CSV file is to take a look at the datastructure:
+```
+print(data_frame.head())
+print(data_frame.info())
+```
+The **_'head()'_** is a **Pandas** method to display first 5 rows of DataFrame:
+
+The **_info()_** is also a **Pandas** method, it job is to display basic information about the DataFrame and the Columns it contains,
+specifically I'm interested in what datatype these columns contain: 
+
+
+
 # Cleaning & Transforming the DataFrame
 
 # Descriptive Statistics & Normal Distribution
