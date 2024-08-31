@@ -196,5 +196,8 @@ summary = prediction.summary_frame(alpha=0.05)
 
 print(summary)
 ```
+Here is the **Regression Analysis** results:  
+![12_regression_analysis.png](assets%2F12_regression_analysis.png)
+
 
 # Conclusion
