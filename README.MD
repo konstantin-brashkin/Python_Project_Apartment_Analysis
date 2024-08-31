@@ -78,7 +78,7 @@ data_frame['Has_Balcony'] = data_frame['Has_Balcony'].astype(bool)
 data_frame['Has_Elevator'] = data_frame['Has_Elevator'].astype(bool)
 data_frame['Has_Parking'] = data_frame['Has_Parking'].astype(bool)
 ```
-Now values in these columns looks like this:
+Now values in these columns looks like this:  
 ![6_int_to_bolean_2.png](assets%2F6_int_to_bolean_2.png)
 
 ### 3. Setting up 'apart_id' as an Index Column🆔
