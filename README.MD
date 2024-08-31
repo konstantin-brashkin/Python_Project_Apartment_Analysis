@@ -10,8 +10,22 @@ The project includes such steps as importing all the necessary libraries & modul
 Statistics** and checking the **Normal Distribution** of apartment prices, analyzing the **Correlation**
 and predicting apartment price based on its size using **Regression Analysis**📈!
 
+You can find the **Python** file with full code from this repository or directly by this link: [apartment_analysis.py](apartment_analysis.py).  
+And also the actual **CSV** Dataset file: [german_apartment_rentals.csv](german_apartment_rentals.csv).
 
 # Importing Modules & Creating Pandas DataFrame from CSV file
+
+At first, I imported all necessary modules & libraries and created Pandas DataFrame from CSV file:
+
+```
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import statsmodels.api as sm
+from scipy import stats
+
+data_frame = pd.read_csv('german_apartment_rentals.csv')
+```
 
 # First Look at the Dataset Structure
 
