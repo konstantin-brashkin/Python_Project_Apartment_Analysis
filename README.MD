@@ -39,9 +39,11 @@ print(data_frame.head())
 print(data_frame.info())
 ```
 The **_'head()'_** is a **Pandas** method to display first 5 rows of DataFrame:
+![1_first_five_rows.png](assets%2F1_first_five_rows.png)
 
 The **_info()_** is also a **Pandas** method, it job is to display basic information about the DataFrame and the Columns it contains,
-specifically I'm interested in what datatype these columns contain: 
+specifically I'm interested in what datatype these columns contain:
+![2_dataframe_info.png](assets%2F2_dataframe_info.png)
 
 
 
