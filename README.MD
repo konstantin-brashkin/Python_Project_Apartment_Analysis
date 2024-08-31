@@ -41,13 +41,19 @@ print(data_frame.info())
 The **_'head()'_** is a **Pandas** method to display first 5 rows of DataFrame:
 ![1_first_five_rows.png](assets%2F1_first_five_rows.png)
 
-The **_info()_** is also a **Pandas** method, it job is to display basic information about the DataFrame and the Columns it contains,
-specifically I'm interested in what datatype these columns contain:
+The **_info()_** is also a **Pandas** method, it job is to display basic information about the DataFrame and 
+the Columns it contains, specifically I'm interested in what datatype these columns contain:
 ![2_dataframe_info.png](assets%2F2_dataframe_info.png)
 
-
-
 # Cleaning & Transforming the DataFrame
+
+Now it's time to **Clean & Transform**✨ this DataFrame!  
+As you might notice, in the previous section, when we were checking the datatypes of columns _info()_ 
+method showed that the datatype of 'Date_Built' column is 'object':
+![3_wrong_datatype.png](assets%2F3_wrong_datatype.png)
+
+Basically, Pandas interpreted values in this column as 'string' but the correct datatype for this 
+column should be **_'datetime'_**
 
 # Descriptive Statistics & Normal Distribution
 
