@@ -1,6 +1,6 @@
 # Introduction
 
-Hi! This is my **Python Portfolio Project** 🐉 that involves working with Python
+Hi! This is my **Python Portfolio Project** 🐉, which involves working with Python
 libraries & modules such as **NumPy**, **Pandas**, **Matplotlib**, **SciPy** 
 and **Statsmodels**. The dataset I am working on is a CSV file with apartment🏚️ rental information.
 
