@@ -55,8 +55,16 @@ method showed that the datatype of 'Date_Built' column is 'object':
 ![3_wrong_datatype.png](assets%2F3_wrong_datatype.png)
 
 Basically, Pandas interpreted values in this column as 'string' but the correct datatype for this 
-column should be **_'datetime'_**.
-To fix this
+column should be **_'datetime'_**.  
+To fix it I'll simply convert all values in this column to a 'datetime' datatype using **Pandas** method 
+**_'to_datetime()'_**:
+```
+data_frame['Date_Built'] = pd.to_datetime(data_frame['Date_Built'])
+```
+Now if I check the datatype of this column again, using _info()_ method, It will show that the datatype 
+of this column now is **_'datatime'_**, just like it should be!    
+![4_fixed_datatype.png](assets%2F4_fixed_datatype.png)
+
 
 # Descriptive Statistics & Normal Distribution
 
