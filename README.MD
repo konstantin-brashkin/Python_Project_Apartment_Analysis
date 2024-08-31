@@ -65,6 +65,13 @@ Now if I check the datatype of this column again, using _info()_ method, It will
 of this column now is **_'datatime'_**, just like it should be!    
 ![4_fixed_datatype.png](assets%2F4_fixed_datatype.png)
 
+### 2. Replacing values in the Columns🔁
+
+Another thing that I want to do with this DataFrame is to replace binary '1' and '0' values to boolean 
+'True' or 'False' in these columns:  
+![5_int_to_boolean.png](assets%2F5_int_to_boolean.png)
+
+
 
 # Descriptive Statistics & Normal Distribution
 

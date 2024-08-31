@@ -11,7 +11,7 @@ data_frame = pd.read_csv('german_apartment_rentals.csv')
 
 
 # Checking first 5 rows to see the Dataset structure
-print(data_frame.head())
+print(data_frame.head().to_string())
 
 
 # Checking info about Pandas data frame
