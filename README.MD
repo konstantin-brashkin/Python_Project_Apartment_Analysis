@@ -38,7 +38,7 @@ The next step after the initial Dataset loading from CSV file is to take a look 
 print(data_frame.head())
 print(data_frame.info())
 ```
-The **_'head()'_** is a **Pandas** method to display first 5 rows of DataFrame:
+The **_'head()'_** is a **Pandas** method to display **first 5 rows** of DataFrame just to explore it structure:
 ![1_first_five_rows.png](assets%2F1_first_five_rows.png)
 
 The **_info()_** is also a **Pandas** method, it job is to display basic information about the DataFrame and 
