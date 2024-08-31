@@ -18,7 +18,6 @@ And also the actual **CSV** Dataset file: [german_apartment_rentals.csv](german_
 At first, I imported all necessary modules & libraries and created Pandas DataFrame from CSV file:
 
 ```
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
@@ -26,6 +25,11 @@ from scipy import stats
 
 data_frame = pd.read_csv('german_apartment_rentals.csv')
 ```
+
+I used **Pandas** to read, clean and transform the Dataset📅.  
+**Matplotlib** is useful for creating charts to graphically display the data📊.  
+**SciPy** and **Statsmodels** are amazing libraries that I used to apply the 
+**Descriptive Statistics** & **Regression Analysis**📈
 
 # First Look at the Dataset Structure
 
