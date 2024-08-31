@@ -11,7 +11,7 @@ data_frame = pd.read_csv('german_apartment_rentals.csv')
 
 
 # Checking first 5 rows to see the Dataset structure
-print(data_frame.head().to_string())
+print(data_frame.head())
 
 
 # Checking info about Pandas data frame
@@ -22,7 +22,7 @@ print(data_frame.info())
 data_frame['Date_Built'] = pd.to_datetime(data_frame['Date_Built'])
 
 
-# Converting ints to boolean values
+# Replacing binary '1' and '0' values with boolean 'True' or 'False' values
 data_frame['Has_Balcony'] = data_frame['Has_Balcony'].astype(bool)
 data_frame['Has_Elevator'] = data_frame['Has_Elevator'].astype(bool)
 data_frame['Has_Parking'] = data_frame['Has_Parking'].astype(bool)
