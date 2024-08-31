@@ -142,7 +142,34 @@ plt.show()
 As we can see in the histogram the data is, in general, following a bell curve and didn't have significant outliers,  
 It's now safe to say that the apartment rental prices are in **_'Normal Distribution'_** form!
 
-
 # Correlation & Regression Analysis
+
+Now it's time for **Regression Analysis** and predicting apartment rental price based on its **Correlation** 
+with the apartment size!
+
+###  1. Correlation check & Building a Scatter Plot📈
+
+The good simple way to see if there is **Correlation** between values is to build a **Scatter plot** using Matplotlib library:
+```
+plt.figure(figsize=(8, 6))
+plt.scatter(data_frame['Apartment_Size'], data_frame['Rent_Price'])
+slope, intercept, rvalue, pvalue, stderr = stats.linregress(data_frame['Apartment_Size'],data_frame['Rent_Price'])
+plt.plot(data_frame['Apartment_Size'], slope*data_frame['Apartment_Size']+intercept, color='red')
+plt.xlabel('Apartment Size')
+plt.ylabel('Rent Price')
+plt.show()
+```
+![11_scatter_plot.png](assets%2F11_scatter_plot.png)
+
+As you can see on the scatter plot there is definitely a clear correlation between apartment size and its price (which is quite obvious).  
+We can also check the exact correlation value by using Pandas **_corr()_** method:
+```
+print(data_frame['Apartment_Size'].corr(data_frame['Rent_Price']))
+```
+As a result, we get a correlation value of ~**0.7** which is a really nice correlation value that 
+indicates a strong relationship between these variables!
+
+
+### 2. Regression Analysis🔎
 
 # Conclusion

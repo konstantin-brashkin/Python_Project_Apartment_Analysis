@@ -47,7 +47,7 @@ plt.show()
 
 
 # Checking if rental price has a strong correlation with the size of apartment
-print(data_frame['Apartment_Size'].corr(data_frame['Rent_Price']))
+print(round(data_frame['Apartment_Size'].corr(data_frame['Rent_Price']), 1))
 
 
 # Building a Scatter plot to graphically display
