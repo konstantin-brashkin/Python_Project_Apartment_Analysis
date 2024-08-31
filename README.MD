@@ -175,5 +175,26 @@ indicates a strong relationship between these variables!
 So now when we are confident in correlation of these parameters we can predict the apartment price based on its size
 using **Regression Analysis** with Python statsmodels library!
 
+For example, I want to predict the price of three apartments with an area size of 130, 160 and 200 square meters 
+(the maximum size value in our dataset is 120).
+```
+# Setting up independent (X) and dependent (Y) variables
+x = data_frame['Apartment_Size']
+x = sm.add_constant(x)
+y = data_frame['Rent_Price']
+
+# Defining the sizes of apartments for which I want to predict the price
+new_sizes = [130, 160, 200]
+new_sizes = sm.add_constant(new_sizes)
+
+# Creating and training a model
+model = sm.OLS(y, x).fit()
+
+# Getting the final prediction results with confidence intervals
+prediction = model.get_prediction(new_sizes)
+summary = prediction.summary_frame(alpha=0.05)
+
+print(summary)
+```
 
 # Conclusion

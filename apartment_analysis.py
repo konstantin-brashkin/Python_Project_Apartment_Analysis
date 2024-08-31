@@ -47,7 +47,7 @@ plt.show()
 
 
 # Checking if rental price has a strong correlation with the size of apartment
-print(round(data_frame['Apartment_Size'].corr(data_frame['Rent_Price']), 1))
+print(data_frame['Apartment_Size'].corr(data_frame['Rent_Price']))
 
 
 # Building a Scatter plot to graphically display
@@ -85,9 +85,4 @@ model = sm.OLS(y, x).fit()
 prediction = model.get_prediction(new_sizes)
 summary = prediction.summary_frame(alpha=0.05)
 
-print(model.summary())
 print(summary)
-
-
-
-
