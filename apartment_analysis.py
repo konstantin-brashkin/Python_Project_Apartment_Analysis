@@ -38,7 +38,7 @@ data_frame.set_index('apart_id', inplace=True)
 print(data_frame.describe())
 
 
-# Creating a Histogram chart using Matplotlib library to check a Distribution of prices,
+# Creating a Histogram chart using Matplotlib library to check a Distribution of apartment prices,
 # in that case we can see that prices are in 'Normal Distribution' form
 plt.figure(figsize=(8, 6))
 plt.hist(data_frame['Rent_Price'], bins=30)
@@ -66,7 +66,7 @@ plt.ylabel('Rent Price')
 plt.show()
 
 
-# Regression Analysis to predict apartments prices based on their sizes
+# Regression Analysis to predict apartment prices based on their sizes
 
 # Setting up independent (X) and dependent (Y) variables
 x = data_frame['Apartment_Size']
