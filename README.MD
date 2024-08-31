@@ -206,4 +206,16 @@ So based on this **Regression Analysis** model we can with 95% confidence say th
 
 # Conclusion
 
+This **Python** project showcases the process of working with
+libraries & modules such as **Pandas**, **Matplotlib**, **SciPy** 
+and **Statsmodels**
+
+The project includes such steps as importing all the necessary libraries & modules, creating a 
+**Pandas DataFrame** from a CSV file📅, **Cleaning & Transforming** the DataFrame, applying **Descriptive
+Statistics** and checking the **Normal Distribution** of apartment prices, analyzing the **Correlation**
+and predicting apartment price based on its size using **Regression Analysis**📈!
+
+You can find the **Python** file with full code from this repository or directly by this link: [apartment_analysis.py](apartment_analysis.py).  
+And also the actual **CSV** Dataset file: [german_apartment_rentals.csv](german_apartment_rentals.csv).
+
 **_Thank you for your attention!_**
