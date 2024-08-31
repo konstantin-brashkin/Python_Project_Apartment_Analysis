@@ -84,7 +84,7 @@ Now values in these columns looks like this:
 ### 3. Setting up 'apart_id' as an Index Column🆔
 
 The good practice while working with **Pandas DataFrame** when you have an **'id' Primary key** column
-is to use this column as an DataFrame index column, right now 'apart_id' is individual, seperated column:  
+is to use this column as an Index Column, right now 'apart_id' is individual, seperated column:  
 ![7_apart_id.png](assets%2F7_apart_id.png)
 
 This how I specified 'apart_id' as a Data Frame Index Column using Pandas **_set_index()_** method:
