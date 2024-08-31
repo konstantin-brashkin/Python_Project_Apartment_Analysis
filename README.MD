@@ -119,6 +119,28 @@ Here is what results looks like:
 
 ### 2. Normal Distribution of a Rental Price💲
 
+Checking the **Distribution** of a rental price can help find out whether there are abnormal outliers 
+which can seriously effect _**mean**_, _**median**_ and other descriptive statistic values of data 
+(even though median less sensitive to outliers than mean).  
+
+If prices are in **_Normal Distribution_** form it means that data have no significant 
+outliers, **mean** and **median** are approximately the same, and we also can say that
+68% of the data falls within one standard deviation (σ) of the mean, 
+95% within two standard deviations, and 99.7% within three standard deviations (It's called **'Empirical rule'**).
+
+To check it I built up a **histogram** using **_Matplotlib_** library:
+```
+plt.figure(figsize=(8, 6))
+plt.hist(data_frame['Rent_Price'], bins=30)
+plt.title('Distribution of Rent Price')
+plt.xlabel('Rent Price')
+plt.ylabel('Frequency')
+plt.show()
+```
+![10_histogram.png](assets%2F10_histogram.png)
+
+
+
 # Correlation & Regression Analysis
 
 # Conclusion
