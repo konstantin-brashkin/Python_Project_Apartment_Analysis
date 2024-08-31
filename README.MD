@@ -172,4 +172,8 @@ indicates a strong relationship between these variables!
 
 ### 2. Regression Analysis🔎
 
+So now when we are confident in correlation of these parameters we can predict the apartment price based on its size
+using **Regression Analysis** with Python statsmodels library!
+
+
 # Conclusion
