@@ -139,6 +139,8 @@ plt.show()
 ```
 ![10_histogram.png](assets%2F10_histogram.png)
 
+As we can see in the histogram the data is, in general, following a bell curve and didn't have significant outliers,  
+It's now safe to say that the apartment rental prices are in **_'Normal Distribution'_** form!
 
 
 # Correlation & Regression Analysis
