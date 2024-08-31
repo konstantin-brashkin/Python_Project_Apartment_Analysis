@@ -49,7 +49,7 @@ the Columns it contains, specifically I'm interested in what datatype these colu
 
 Now it's time to **Clean & Transform**✨ this DataFrame!  
 As you might notice, in the previous section, when we were checking the datatypes of columns _info()_ 
-method showed that the datatype of 'Date_Built' column is 'object':
+method showed that the datatype of 'Date_Built' column is 'object':  
 ![3_wrong_datatype.png](assets%2F3_wrong_datatype.png)
 
 Basically, Pandas interpreted values in this column as 'string' but the correct datatype for this 
