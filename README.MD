@@ -196,8 +196,14 @@ summary = prediction.summary_frame(alpha=0.05)
 
 print(summary)
 ```
-Here is the **Regression Analysis** results:  
+Here are results:  
 ![12_regression_analysis.png](assets%2F12_regression_analysis.png)
 
+So based on this **Regression Analysis** model we can with 95% confidence say that:
+* **130** square meters apartment price is in **948 - 1,482 €** range
+* **160** square meters apartment price is in **1,094 - 1,630 €** range
+* **200** square meters apartment price is in **1,288 - 1,827 €** range
 
 # Conclusion
+
+**_Thank you for your attention!_**
