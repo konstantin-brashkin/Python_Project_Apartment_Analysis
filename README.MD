@@ -47,13 +47,16 @@ the Columns it contains, specifically I'm interested in what datatype these colu
 
 # Cleaning & Transforming the DataFrame
 
-Now it's time to **Clean & Transform**✨ this DataFrame!  
+Now it's time to **Clean & Transform**✨ this DataFrame!
+
+### 1. Fixing the Column datatype🔧
 As you might notice, in the previous section, when we were checking the datatypes of columns _info()_ 
 method showed that the datatype of 'Date_Built' column is 'object':  
 ![3_wrong_datatype.png](assets%2F3_wrong_datatype.png)
 
 Basically, Pandas interpreted values in this column as 'string' but the correct datatype for this 
-column should be **_'datetime'_**
+column should be **_'datetime'_**.
+To fix this
 
 # Descriptive Statistics & Normal Distribution
 
