@@ -96,6 +96,16 @@ Now 'apart_id' became an index column!
 
 # Descriptive Statistics & Normal Distribution
 
+After DataFrame is cleaned & transformed It is now ready to be analyzed🔎  
+Applying Descriptive Statistics is a simple and powerful way to obtain some
+interesting and meaningful insights from the data!  
+In this section I will show how I used Pandas _**groupby()**_ and **_agg()_** methods to apply descriptive
+statistics tool on our data such as _**min, max, mean, median and standard deviation**_ functions!
+
+
+### 1. Descriptive Statistics📊
+### 2. Normal Distribution of a Rental Price💲
+
 # Correlation & Regression Analysis
 
 # Conclusion

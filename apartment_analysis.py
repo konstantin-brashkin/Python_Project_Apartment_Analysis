@@ -32,9 +32,8 @@ data_frame['Has_Parking'] = data_frame['Has_Parking'].astype(bool)
 data_frame.set_index('apart_id', inplace=True)
 
 
-# Using "describe" Pandas method to see a quick summary & descriptive statistic
-# for all numeric columns
-print(data_frame.describe())
+# Using Pandas GroupBy and Aggregation methods to apply some Descriptive Statistics
+print(data_frame.groupby(by=['City', 'District'])['Rent_Price'].agg(['min','max', 'mean', 'median', 'std']))
 
 
 # Creating a Histogram chart using Matplotlib library to check a Distribution of apartment prices,
